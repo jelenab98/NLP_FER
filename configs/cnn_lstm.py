@@ -35,9 +35,9 @@ early_stop_tolerance = 50
 test_task = 'A'
 test_type = 'test'
 test_emojis = True
-test_irony_hashtags = True
+test_irony_hashtags = False
 
-remove_punctuation = True
+remove_punctuation = False
 use_features = False
 
 # Save configuration
