@@ -33,10 +33,8 @@ dt_string = now.strftime("%d_%m_%Y_%H_%M_%S")
 save_path = f"../saves/simple_rnn_{dt_string}/"
 
 # Test configuration
-path_punctuation = "../saves/final_lstm_rnn/punct.pth"     # path to model with punctuation
-path_no_punctuation = "../saves/final_lstm_rnn/no_punct.pth"    # path to model with no punctuation
-path_punctuation_features = "../saves/final_lstm_rnn/punct_features.pth"     # path to model with punctuation and feat
-#test_mode = "punctuation"  # can be punctuation or features
-test_mode = "features"  # can be punctuation or features
+path_punctuation = "../saves_2/simple_rnn_false/simple_rnn_10_01_2022_15_10_21/best_model.pth"     # path to model with punctuation
+path_no_punctuation = "../saves_2/simple_rnn_true/simple_rnn_10_01_2022_15_23_22/best_model.pth"    # path to model with no punctuation
+test_mode = "punctuation"  # can be punctuation or features
 exact = False
 correction = True

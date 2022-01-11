@@ -1,0 +1,29 @@
+[Basic NN Punctuation]: loss: 20.4034, acc: 0.4625, p: 0.4173, r: 0.8360, f1: 0.5567, m: 0.0830
+[Basic NN No Punctuation]: loss: 21.8882, acc: 0.4575, p: 0.4063, r: 0.7460, f1: 0.5261, m: 0.0322
+pvalue      0.8101812364104736
+statistic   0.057692307692307696
+P-value is greater than alpha. Same proportions of error. H0 is not rejected.
+
+[CNN DNN Punctuation]: loss: 17.4002, acc: 0.5075, p: 0.4417, r: 0.8167, f1: 0.5734, m: 0.1528
+[CNN DNN No Punctuation]: loss: 22.3410, acc: 0.4425, p: 0.4069, r: 0.8360, f1: 0.5474, m: 0.0438
+pvalue      0.0007714494638696244
+statistic   11.308695652173913
+P-value is less than alpha. Different proportions of error. H0 is rejected.
+
+[CNN LSTM Punctuation]: loss: 18.3410, acc: 0.4662, p: 0.4256, r: 0.9196, f1: 0.5819, m: 0.1448
+[CNN LSTM No Punctuation]: loss: 18.6167, acc: 0.4200, p: 0.4023, r: 0.9068, f1: 0.5573, m: 0.0333
+pvalue      0.0005009435558228391
+statistic   12.11214953271028
+P-value is less than alpha. Different proportions of error. H0 is rejected.
+
+[LSTM Punctuation]: loss: 21.3074, acc: 0.5800, p: 0.4884, r: 0.6077, f1: 0.5415, m: 0.1850
+[LSTM No Punctuation]: loss: 33.8596, acc: 0.4637, p: 0.4096, r: 0.7428, f1: 0.5280, m: 0.0422
+pvalue      9.747634878702679e-07
+statistic   23.977337110481585
+P-value is less than alpha. Different proportions of error. H0 is rejected.
+
+[Simple RNN Punctuation]: loss: 23.5463, acc: 0.5150, p: 0.4452, r: 0.7974, f1: 0.5714, m: 0.1555
+[Simple RNN No Punctuation]: loss: 27.6459, acc: 0.4050, p: 0.3495, r: 0.5563, f1: 0.4293, m: -0.1262
+pvalue      4.263759258090333e-06
+statistic   21.14245810055866
+P-value is less than alpha. Different proportions of error. H0 is rejected.
